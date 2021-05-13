@@ -1,2 +1,2 @@
 # ForumByNatasa
-Forum za predmet spletno programiranje
+Forum izdelan pri predmetu Spletno programiranje

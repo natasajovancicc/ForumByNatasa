@@ -3,7 +3,7 @@
 	if (isset($_SESSION['upIme'])&&$_SESSION['upIme']!=""){
 	}
 	else {
-		header("Location:../index.php");
+		header("Location:../index.html");
 	}
 	$upIme = $_SESSION['upIme'];
 ?>

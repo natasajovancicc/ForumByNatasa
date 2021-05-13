@@ -3,7 +3,7 @@
 	if (isset($_SESSION['upIme'])&&$_SESSION['upIme']!=""){
 	}
 	else {
-		header("Location:../index.php");
+		header("Location:../index.html");
 	}
 	$upIme = $_SESSION['upIme'];
 	$idUredi= $_GET['id'];
@@ -53,7 +53,7 @@
 						<a class="nav-link"><i class="fa fa-user"></i> <?php echo $upIme;?></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="../../functions/odjava.php"><i class="fa fa-sign-out"></i>Odjava</a>
+						<a class="nav-link" href="../functions/odjava.php"><i class="fa fa-sign-out"></i>Odjava</a>
 					</li>
 				</ul>
 			</div>

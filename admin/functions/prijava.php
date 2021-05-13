@@ -22,7 +22,7 @@
     	echo '<script language="javascript">';
         echo 'alert("Napačno uporabniško ime in geslo!")';
         echo '</script>';
-        echo '<meta http-equiv="refresh" content="0;url=../index.php" />';
+        echo '<meta http-equiv="refresh" content="0;url=../index.html" />';
     }
 
 ?>

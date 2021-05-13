@@ -7,7 +7,7 @@
 	}
 	
 	if(empty($id)){
-		header("location:../index.php");
+		header("location:../index.html");
 	}
 
 	$run = mysqli_query($mysqli, "DELETE FROM kategorija WHERE kategorija_id = '$id'") or die(mysqli_error());  	

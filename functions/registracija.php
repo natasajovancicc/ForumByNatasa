@@ -35,7 +35,7 @@
 				echo '<script language="javascript">';
 				echo 'alert("Registracija uspešna")';
 				echo '</script>';
-				echo '<meta http-equiv="refresh" content="0;url=../index.php" />';
+				echo '<meta http-equiv="refresh" content="0;url=../index.html" />';
 			}
 		}	
 	}

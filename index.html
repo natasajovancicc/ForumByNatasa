@@ -1,0 +1,79 @@
+﻿<html lang="sl">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Forum by Nataša</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="author" content="Nataša Jovančić">
+	<meta name="description" content="Forum, narejen pri predmetu Spletno programiranje">
+	<meta name="keywords" content="splet, programiranje, forum, fiš, php, javascript, jquery, css, html">
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<header>
+	</header>
+	
+	<main>
+		<div class="container h-100">
+			<div class="row align-items-center h-100">
+				<div class="mx-auto col-lg-4 col-md-6">
+				
+					<h3 style="margin-bottom:50px; text-align:center;">Prijava</h3>
+						
+					<form method="POST" action="functions/prijava.php">
+					
+						<div class="form-group input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text"> <i class="fa fa-user"></i> </span>
+							 </div>
+							<input name="upIme" class="form-control" placeholder="Uporabniško ime" type="text" style="border: 1px;" required>
+						</div> 
+						
+					
+						<div class="form-group input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+							</div>
+							<input name="geslo" class="form-control" placeholder="Geslo" type="password" style="border: 1px;" required>
+						</div> 
+						
+													
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary btn-block">Prijava</button>
+						</div> 
+						<p class="text-center">Še nimate računa? <a href="pages/registracija.html">Registracija</a> </p>  
+						
+					</form>								
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	
+	<footer class="footerIndex">
+	   <p id="copyright" class="text-center small"></p>
+	</footer>
+	
+	
+
+	<script>
+	function copyrightYear() {
+	   var d = new Date();
+	   var y = d.getFullYear();
+	   document.getElementById("copyright").innerHTML = 'Copyright &copy; ' + y + ' Nataša Jovančić';
+	}
+
+	copyrightYear();
+	</script>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

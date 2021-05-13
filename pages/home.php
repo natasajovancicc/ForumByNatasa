@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 	session_start();
 	if (isset($_SESSION['upIme'])&&$_SESSION['upIme']!=""){
 	}
@@ -79,7 +79,7 @@
 									echo '<tr>';
 									echo '<td>'.$naslov.'</td>';
 									echo '<td>'.$kategorija.'</td>';
-									echo '<td><a href="podrobno.php?tema_id='.$tema_Id.'"><button class="btn btn-primary pull-right" style="min-width: 100px;">Več</button></td>';
+									echo '<td><a href="podrobno.php?tema_id='.$tema_Id.'"><button class="btn btn-primary pull-right" style="min-width: 100px;"><i class="fa fa-pencil" aria-hidden="true"></i></button></td>';
 									echo '</tr>';
 								}
 						echo '</table>';

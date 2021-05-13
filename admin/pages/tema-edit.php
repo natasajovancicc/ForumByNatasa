@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<style>
 		td {height: 60px;vertical-align: middle;}
-		.btnZamik {margin-right: 15px;}
+		.btnZamik {margin-right: 5px;}
 	</style>
 	
 </head>
@@ -99,12 +99,13 @@
 						echo "<tr>";
 						echo "<td>".$row['naslov']."</td>";
 						echo "<td>".$row['kategorija']."</td>";
-						echo "<td>".	
-							"<a href='../functions/tema-delete.php?tema_Id=$id' class='btn btn-danger pull-right'>Briši</a>".					
-							"<a href='tema-edit.php?id=".$id."' class='btn btn-warning pull-right btnZamik'>Uredi</a>"." ".
-							"<a class='btn btn-light pull-right btnZamik' data-toggle='modal' data-target='#poglejTemo'>Poglej</a>"." ".
-							"</td>";
-						echo "</tr>";
+						 echo "<td>";
+						                                            
+                                                echo "<a href='../functions/tema-delete.php?tema_Id=$id' class='btn btn-danger pull-right btnZamik'><i class='fa fa-trash'></i></a>";
+                                                echo "<a href='tema-edit.php?id=".$id."' class='btn btn-warning pull-right btnZamik'><i class='fa fa-edit'></i></a>";
+                                                echo "<a href='tema-pogled.php?id=".$id."' class='btn btn-light pull-right btnZamik'><i class='fa fa-info' aria-hidden='true'></i></a>";
+						echo "</td>";
+                                                echo "</tr>";
 					}
 				
 				?>

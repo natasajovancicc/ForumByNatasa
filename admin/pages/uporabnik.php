@@ -87,7 +87,7 @@
 							echo "<tr>";
 							echo "<td>".$upIme."</td>";
 							echo "<td>".$ime.' '.$priimek."</td>";
-							echo '<td><button class="btn btn-danger pull-right" onclick="brisiUporabnika('.$uporabnik_Id.')">Briši</button>';
+							echo '<td><button class="btn btn-danger pull-right" onclick="brisiUporabnika('.$uporabnik_Id.')"><i class="fa fa-trash"></i></button>';
 							echo "</tr>";
 						}
 					?>

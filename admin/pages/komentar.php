@@ -90,7 +90,7 @@
 							echo "<td>".$ime.' '.$priimek."</td>";
 							echo '<td>'.date('d.m.Y H:i:s', $dateDt).'</td>';
 							echo "<td>".$komentar."</td>";
-							echo '<td><button class="btn btn-danger pull-right" onclick="deleteKomentar('.$komentar_Id.')">Briši</button>';
+							echo '<td><button class="btn btn-danger pull-right" onclick="deleteKomentar('.$komentar_Id.')"><i class="fa fa-trash"></i></button>';
 							echo "</tr>";
 						}
 					?>

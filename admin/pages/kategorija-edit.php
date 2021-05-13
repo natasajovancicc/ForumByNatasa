@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 	session_start();
 	if (isset($_SESSION['upIme'])&&$_SESSION['upIme']!=""){
 	}
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<style>
 		td { height: 60px; vertical-align: middle;}
-		.urediBtn {margin-right: 15px;}
+		.urediBtn {margin-right: 5px;}
 	</style>
 </head>
 <body>
@@ -90,8 +90,8 @@
 							echo "<tr>";
 							echo "<td>".$kategorija."</td>";
 							echo '<td>';							
-							echo '<a href="../functions/kategorija-delete.php?kategorija_id='.$kategorija_Id.'"><button class="btn btn-danger pull-right" >Briši</button></a>   ';
-							echo '<button class="btn btn-warning pull-right urediBtn" data-toggle="modal" data-target="#urediKategorijo">Uredi</button>';								
+							echo '<a href="../functions/kategorija-delete.php?kategorija_id='.$kategorija_Id.'"><button class="btn btn-danger pull-right" ><i class="fa fa-trash"></i></button></a>   ';
+							echo '<button class="btn btn-warning pull-right urediBtn" data-toggle="modal" data-target="#urediKategorijo"><i class="fa fa-edit"></i></button>';								
 							echo '</td>';
 							echo "</tr>";
 						}

@@ -18,6 +18,11 @@
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<style>
+		.navbar-nav {flex-direction: row;}
+		.nav-link {padding-right: .5rem !important; padding-left: .5rem !important;}
+		.ml-auto .dropdown-menu { left: auto !important; right: 0px;}
+	</style>
 </head>
 <body>
 	

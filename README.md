@@ -19,7 +19,7 @@ Za izboljšan izgled gradnikov je vključena tema Bootswatch.
 <h3>Opis rešitve</h3>
 Zasnova foruma je sestavljena iz 2 delov:
 <ul>
-  <li>forum,</li>
+  <li>uporabniška javna stran (forum),</li>
   <li>administracija.</li>
 </ul>
 
